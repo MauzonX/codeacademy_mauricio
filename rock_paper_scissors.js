@@ -3,7 +3,7 @@ const getUserChoice = userInput => {
   if (userInput === 'rock' || userInput === 'scissors' || userInput === 'paper' || userInput === 'bomb') {
     return userInput;
   } else {
-    console.log('Error, AQUI É BRASIL'); 
+    console.log('Error, please type: rock, paper or scissors'); 
   } 
 }
 
